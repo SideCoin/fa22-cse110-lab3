@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="https://img.icons8.com/ios-glyphs/344/clock--v3.png">
+  <title>Pomodoro Timer First Brainstorm</title>
+</head>
+<body>
+  <header> 
+      <h1>Meeting Minutes</h1>
+      <h4>Brainstorming<h4>
+      <div>2PM | October 6, 2022</div>
+    <h2>Links</h2>
+    <nav> 
+      <ul>
+        <li><a href="#DiscussionNotes">Discussion Notes</a></li>
+        <li><a href="#Recordings">Recordings</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section>
+
+      <h2>General Information </h2>
+      <h3>Meeting Place</h3>
+        <p> 
+        <i>1600 Pennsylvania AV NW<br>
+        Washington, DC 20500</i><br>
+        </p>
+      <h3>Attendees</h3>
+      <ul>
+        <li>Regan</li>
+        <li>Henry</li>
+        <li>Alex</li>
+        <li>Bob</li>
+        <li>Vivian</li>
+      </ul>
+      <h3>Agenda</h3>
+      <ol>
+        <li>Go over unfinished business from last time</li>
+        <li>Figure out what our icon should be</li>
+        <li>Discuss functionalities</li> 
+        <li>Assigning remaining roles</li>
+      </ol>
+      <h3>Last Time</h3>
+        <ul>
+           <li>Funding</li>
+           <li>Find Programmers</li>
+           <li>Find UI designers</li>  
+        </ul>     
+    </section>
+
+    <section>
+      <h2 id="DiscussionNotes">Discussion Notes</h2>
+      <p>
+        Firstly, our funding will most likely come from private investments
+        and grants. The group decided to invest about $1000 into the project.
+        <strong>Vivian</strong> noted that she found a few <b>programmers</b> and  <b>UI designers</b> that
+        are willing to work with us. She just wants someone to interview the
+        programmers as <em>she doesn't have enough software experience.</em>
+      </p>
+      <hr>
+      <p>
+        Secondly, we decided upon an icon design
+      </p>
+      <img src="/Photos/clock1.png" alt="clock1" height="150" width="150">
+      <hr>
+      <details>
+        <summary>Some functionalities we decided on are:</summary>
+        <ul> 
+          <li> Timer </li>
+          <li> Different time controls</li>
+          <li>Alarm sounds</li>
+          <li> Start/Pause</li>
+          <li> Track number of Pomodoros</li> 
+        </ul>
+      </details>
+      <hr>
+      <p>
+        For the roles, we decided to have <span>Vivian</span> interview the
+        <b>UI designers</b>, <span>Regan and Henry</span> will interview the 
+        <b>programmers</b>. <span>Bob and Alex</span> will be in charge of <b>QA testing</b>.
+      </p>
+    </section>
+    <section>
+      <h2 id="Recordings">Recordings</h2>
+      <h3>Video</h3>
+      <video controls width="250">
+        <source src="/Recordings/Video.mp4" type="video/mp4">
+      </video>
+      <h3>Audio</h3>
+      <audio controls>
+        <source src="/Recordings/Audio.mp3" type="audio/mp3"></audio>
+      </audio>
+    </section>
+  </main>
+  <footer>
+    <h2>Footer</h2>
+    <b>Author: </b> Regan Yang<br>
+    <b>Attributions:</b><ul>
+      <li><a href="https://www.flaticon.com/free-icons/clock" title="clock icons">Clock icons created by Freepik - Flaticon</a></li>
+    </ul>
+   </footer>
+  <section> 
+    <h2>Getting to know you</h2>
+    <form>
+      <fieldset>
+        <div><b>Name</b></div>
+        <input type="text"><br>
+        <input type="date">
+        <div><b>Prefer</b></div>
+        <input type="checkbox">
+        <scan>candy</scan><br>
+        <input type="checkbox">
+        <scan>pizza</scan><br>
+        <input type="checkbox">
+        <scan>burgers</scan><br>
+        <input type="radio" name="fruits">
+        <scan>Apples</scan>
+        <input type="radio" name="fruits">
+        <scan>Oranges</scan>
+        <input type="radio" name="fruits">
+        <scan>Watermelons</scan>
+        <div><b>Favorite Gaming System</b></div>
+        <input list="gaming">
+        <datalist id="gaming">
+          <option value="PC"></option>
+          <option value="PS5"></option>
+          <option value="Xbox"></option>
+          <option value="Other"></option>
+        </datalist>
+        <div>Favorite Animal</div>
+        <select>
+          <option value="">Select an option</option>
+          <option value="Dog">Dog</option>
+          <option value="Cat">Cat</option>
+          <option value="Spider">Spider</option>
+          <option value="Hamster">Hamster</option>
+        </select>
+        <div><b>Comments</b></div>
+        <textarea>
+        </textarea>
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </section>
+</body>
+</html>
