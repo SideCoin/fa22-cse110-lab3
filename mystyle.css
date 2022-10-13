@@ -9,6 +9,8 @@ body {
     background-color: rgb(241, 225, 106);
 }
 p {
+    font-family: 'Open Sans', sans-serif;
+
     background-color: white
 }
 .box {
