@@ -1,6 +1,9 @@
 * {
     color: hsl(73, 100%, 0%);
 }
+button:hover {
+    color: rgb(214, 63, 63);
+  }
 h1 {
     color: rgb(8, 12, 23);
     text-align: center;
@@ -11,11 +14,11 @@ h1 {
 body {
     background-color: rgb(241, 225, 106);
 }
-ul, p {
-    
-    font-family: 'Open Sans', sans-serif;
-
-    
+a[href^="#"] {
+    background-color: rgb(157, 157, 190);
+}
+ul, p {   
+    font-family: 'Open Sans', sans-serif;    
 }
 .box {
     background-color: white;
