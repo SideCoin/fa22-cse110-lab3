@@ -36,3 +36,9 @@ ul, p {
     padding-left: 5px;
     padding-right: 5px;
 }
+#attendees > li{
+    color: rgb(72, 0, 255);
+}
+#findProg + li{
+    color: red;
+}

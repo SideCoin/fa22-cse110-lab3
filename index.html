@@ -11,6 +11,11 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
   <link rel ="stylesheet" href="mystyle.css">
   <title>Pomodoro Timer First Brainstorm</title>
+  <style>
+    h3 {
+      color: rgb(191, 17, 174);
+    }
+  </style>
 </head>
 <body>
   <header> 
@@ -35,7 +40,7 @@
         Washington, DC 20500</i><br>
         </p>
       <h3>Attendees</h3>
-      <ul>
+      <ul id="attendees">
         <li>Regan</li>
         <li>Henry</li>
         <li>Alex</li>
@@ -52,7 +57,7 @@
       <h3>Last Time</h3>
         <ul>
            <li>Funding</li>
-           <li>Find Programmers</li>
+           <li id="findProg">Find Programmers</li>
            <li>Find UI designers</li>  
         </ul>     
     </section>
@@ -115,7 +120,12 @@
         <div><b>Name</b></div>
         <input type="text"><br>
         <input type="date">
-        <div><b>Prefer</b></div>
+        <style> #selection ~ label{
+          color: blue;
+        }
+        </style>
+        <div id="selection"><b>Prefer</b></div>
+
         <input type="checkbox" id="candy">
         <label for="candy">candy</label>
         <input type="checkbox" id="pizza" >
@@ -137,7 +147,13 @@
           <option value="Other"></option>
         </datalist>
         <div><b>Favorite Animal</b></div>
-        <select>
+        <style>
+          #favAnimal option {
+            color: red;
+            background-color: yellow; 
+          }
+        </style>
+        <select id="favAnimal">
           <option value="">Select an option</option>
           <option value="Dog">Dog</option>
           <option value="Cat">Cat</option>
