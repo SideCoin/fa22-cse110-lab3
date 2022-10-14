@@ -1,3 +1,4 @@
+/*CSS file*/
 * {
     color: hsl(73, 100%, 0%);
 }
@@ -39,6 +40,22 @@ ul, p, summary, ol {
     padding-left: 5px;
     padding-right: 5px;
 }
+#flexbox-container {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    column-gap: 15px;
+}
+#grid-template {
+    display: grid;
+    grid-template-areas:"1 2"
+    "3 4";
+    grid-template-columns: 60% 40%;
+    grid-auto-rows: minmax(100px, auto);
+    column-gap: 100px;
+    row-gap: 100px;
+}
+
 #attendees > li{
     color: rgb(72, 0, 255);
 }
@@ -53,6 +70,9 @@ ul, p, summary, ol {
     border-width: 3pt;
     border-color: black;
     border-radius: 10%;
+}
+a:active{
+    color:bisque
 }
 form {
     padding: 5px 2px 5px 2px;

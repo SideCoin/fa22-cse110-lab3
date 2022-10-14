@@ -25,17 +25,16 @@
     <h2>Links</h2>
     <nav> 
       <ul>
-        <li><a href="#DiscussionNotes">Discussion Notes</a></li>
-        <li><a href="#Recordings">Recordings</a></li>
+        <li><a id="discLink" href="#DiscussionNotes">Discussion Notes</a></li>
+        <li><a id="recordingLink" href="#Recordings">Recordings</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-
-      <h2>General Information </h2>
+    <h2>General Information </h2>
+    <section id="flexbox-container">
       <h3>Meeting Place</h3>
-        <p class="box address"> 
+        <p class="box address">
         <i>1600 Pennsylvania AV NW<br>
         Washington, DC 20500</i><br>
         </p>
@@ -61,38 +60,46 @@
            <li>Find UI designers</li>  
         </ul>     
     </section>
+    <h2 id="DiscussionNotes">Discussion Notes</h2>
+    <section id="grid-template">
+      <section class="col-1">
+        <p class="box">
+          Firstly, our funding will most likely come from private investments
+          and grants. The group decided to invest about $1000 into the project.
+          <strong>Vivian</strong> noted that she found a few <b>programmers</b> and  <b>UI designers</b> that
+          are willing to work with us. She just wants someone to interview the
+          programmers as <em>she doesn't have enough software experience.</em>
+        </p>
+        <hr>
+      </section>
+      <section class="col-2">
+        <p class="box">
+          Secondly, we decided upon an icon design
+        </p>
+        <img id="clock" src="clock.png" alt="clock1" height="150" width="150">
+        <hr>
+      </section>
+      <section class="col-3">
+        <details>
+          <summary>Some functionalities we decided on are:</summary>
+          <ul> 
+            <li> Timer </li>
+            <li> Different time controls</li>
+            <li>Alarm sounds</li>
+            <li> Start/Pause</li>
+            <li> Track number of Pomodoros</li> 
+          </ul>
+        </details>
+        <hr>
+      </section>
 
-    <section>
-      <h2 id="DiscussionNotes">Discussion Notes</h2>
-      <p class="box">
-        Firstly, our funding will most likely come from private investments
-        and grants. The group decided to invest about $1000 into the project.
-        <strong>Vivian</strong> noted that she found a few <b>programmers</b> and  <b>UI designers</b> that
-        are willing to work with us. She just wants someone to interview the
-        programmers as <em>she doesn't have enough software experience.</em>
-      </p>
-      <hr>
-      <p class="box">
-        Secondly, we decided upon an icon design
-      </p>
-      <img id="clock" src="clock.png" alt="clock1" height="150" width="150">
-      <hr>
-      <details>
-        <summary>Some functionalities we decided on are:</summary>
-        <ul> 
-          <li> Timer </li>
-          <li> Different time controls</li>
-          <li>Alarm sounds</li>
-          <li> Start/Pause</li>
-          <li> Track number of Pomodoros</li> 
-        </ul>
-      </details>
-      <hr>
-      <p class="box">
-        For the roles, we decided to have <span>Vivian</span> interview the
-        <b>UI designers</b>, <span>Regan and Henry</span> will interview the 
-        <b>programmers</b>. <span>Bob and Alex</span> will be in charge of <b>QA testing</b>.
-      </p>
+      <section col="col-4">
+        <p class="box">
+          For the roles, we decided to have <span>Vivian</span> interview the
+          <b>UI designers</b>, <span>Regan and Henry</span> will interview the 
+          <b>programmers</b>. <span>Bob and Alex</span> will be in charge of <b>QA testing</b>.
+        </p>
+      </section>
     </section>
     <section>
       <h2 id="Recordings">Recordings</h2>
