@@ -17,10 +17,11 @@ body {
 a[href^="#"] {
     background-color: rgb(157, 157, 190);
 }
-ul, p {   
+ul, p, summary, ol {   
     font-family: 'Open Sans', sans-serif;    
 }
 .box {
+    display: inline-block;
     background-color: white;
     text-align: center;
     
@@ -44,6 +45,9 @@ ul, p {
 #findProg + li{
     color: red;
 }
+#clock {
+    display: block;
+}
 #meetingRec {
     border-style: solid;
     border-width: 3pt;
@@ -55,4 +59,7 @@ form {
     border-width: 5Q;
     border-color: black;
     border-style: solid;
+}
+summary {
+    text-decoration: underline overline #8a1adb;
 }
